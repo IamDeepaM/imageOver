@@ -1,0 +1,55 @@
+.page-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.header-wrap {
+    min-height: 20px;
+    background: #37474F;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 0 10px 5px;
+    line-height: 1;
+}
+
+.view-container {
+    width: 100vw;
+    height: calc(100vh - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-left {
+    width: 48%;
+}
+
+.section-right {
+    width: 48%;
+}
+
+.over-here {
+    display: inline-block;
+    border-bottom: 1px dashed #000;
+}
+
+.over-image {
+    width: 80%;
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.over-data {
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.over-data span {
+    display: block;
+}
