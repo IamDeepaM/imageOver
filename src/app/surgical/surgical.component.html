@@ -1,0 +1,42 @@
+<div class="view-container">
+  <div class="section-left">
+    <p>Amazon prohibits hypodermic needles. A hypodermic needle is a hollow needle commonly used with a syringe to inject substances into the body or extract fluids from it. They may also be used to take liquid samples from the body, for example taking blood from a vein in venipuncture. Large bore hypodermic intervention is especially useful in catastrophic blood loss or shock. It is at times difficult to tell whether the product contains a needle intended to pierce the skin.  You may need to view the products image in order to determine if the product contains a needle and, therefore, should be restricted.</p>
+    <h4>RESTRICT:</h4>
+    <ol>
+      <li class="over-here" link="http://omnisurge.co.za/wp-content/uploads/2015/04/hypodermic-38.jpg" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Hypodermic needles</li>
+      <li class="over-here" link="http://www.medicore.com/images/PenNeedleCorePage3.png" desc="An insulin pen is composed of an insulin cartridge that can either be part of the pen or bought separately, a dial that measures the dose and a pen needle that delivers the dose" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Insulin pen needles</li>
+    </ol>
+
+    <h4>PLEASE ALSO RESTRICT:</h4>
+    <ol>
+      <li>If the detail page indicates a needle is for "professional use only" then should RESTRICT regardless of marketing</li>
+      <li><span class="over-here" link="https://www.healthykin.com/images/Product/large/4634.jpg" desc="Often used to collect blood." (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Vacutainer Brand Eclipse Blood Collection Needles</span> (e.g.B01DME1PAY)</li>
+      <li><span class="over-here" link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl46TCSFCdUW0jhnFIXZgzUHjgoG9eJ2nDTu4v3AQ6CfZY54eu" desc="Used for filtering medications that are drawn into a syringe before administration" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Filter needles</span> (e.g., B00XZD7OK8)</li>
+      <li>Products that identify as <span class="over-here" link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvH8Vk0NPju-cZfmxKLk9tCQT84tubm4bnwRrm6wmrC-7zilMrw" desc="Consist of a hollow needle attached to a syringe. They are also used to extract liquid such as blood from the body" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">"hypodermic dispensing needles"</span> (eg. B01HZWS1NS, B01HQF3G84)</li>
+      <li>Exel Comfortpoint Insulin Pen Needle</li>
+      <li><span class="over-here" link="http://www.buykorea.org/images/files_new/mp/gd/2015/01/22/20150122171840526_025_RE.JPG" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Feel Fine Insulin Pen Needle</span> (e.g. B016BJESGK)</li>
+      <li><span class="over-here" link="http://img.weiku.com/waterpicture/2011/6/22/22/Insulin_pen_needle_FINE_JECT_634446015931573303.jpg" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Fine Ject Insulin</span> Pen Needle manufactured by Twobiens (http://wk101203755.company.weiku.com/item/Insulin-pen-needle-FINE-JECT-4014581.html)</li>
+      <li>ShinaPen</li>
+      <li><span class="over-here" link="http://web.tradekorea.com/product/226/1718226/insulin%20pen%20needle_pen%20needle_needle_sungshim%20pen%20needle_1.jpg" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Sungshim Insulin Pen Needle</span> (https://sungmedi.en.ec21.com/Insulin-Pen-Needle--10042530_10042570.html)</li>
+      <li>JSM Insulin Pen Needle</li>
+      <li>CPL Insulin Pen Needle</li>
+      <li>Tuberculin (TB) needles sold without a syringe (if sold with a tuberculin syringe please see okay for sale section)</li>
+    </ol>
+
+    <!-- <ul>
+      <li link="" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Assign Passwords and Maintain Database Access</li>
+      <li class="over-here" link="https://www.computerhope.com/jargon/a/agile-development-methods.jpg" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Agile Development</li>
+      <li class="over-here" link="https://www.techmaish.com/wp-content/uploads/2017/05/agile-project-management.png" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Agile Project Methodology</li>
+      <li class="over-here" link="https://www.iserveradmin.com/wp-content/uploads/2017/05/aws-cloud-computing.jpg" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Amazon Web Services (AWS)</li>
+      <li class="over-here" link="https://edkentmedia.com/wp-content/uploads/2017/08/web-marketing-analytics.jpg" desc="" (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">Analytics</li>
+      <li class="over-here" link="http://dselva.co.in/blog/wp-content/uploads/2017/09/Web-APIs.png" desc="a set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service." (mouseenter)="onDataOver($event)" (mouseleave)="onClear()">APIs</li>
+    </ul>       -->
+  </div>
+  <div class="section-right">
+    <img src="{{imgUrl}}" class="over-image" *ngIf="imgUrl">
+    <div class="over-data" *ngIf="description">
+      <span>Description :</span>
+      <span>{{description}}</span>
+    </div>
+  </div>
+</div>
